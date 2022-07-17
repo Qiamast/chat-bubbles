@@ -23,10 +23,11 @@
   position: absolute;
   z-index: 0;
   bottom: 0;
-  left: -12px;
+  right: 0px;
   height: 26px;
   width: 30px;
-  background: #eee;
+  transform: rotate(180deg);
+  background:#eee;
   border-bottom-right-radius: 20px;
 }
 
@@ -36,7 +37,7 @@
   position: absolute;
   z-index: 1;
   bottom: 0;
-  left: -15px;
+  right: -15px;
   width: 15px;
   height: 27px;
   background: #00a000;
